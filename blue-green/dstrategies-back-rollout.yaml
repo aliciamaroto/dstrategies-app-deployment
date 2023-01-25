@@ -25,7 +25,7 @@ spec:
         - envFrom:
             - configMapRef:
                 name: dstrategies-back-configmap-env-base
-          image: 'quay.io/dseveria/dstrategies-back:V220.0'
+          image: 'quay.io/dseveria/dstrategies-back:V20.0'
           imagePullPolicy: Always
           livenessProbe:
             failureThreshold: 3
