@@ -2,11 +2,11 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: dstrategies-blue-green
-  namespace: user01-gitops-argocd
+  namespace: user18-gitops-argocd
 spec:
   destination:
     name: ''
-    namespace: user01-blue-green
+    namespace: user18-blue-green
     server: 'https://kubernetes.default.svc'
   source:
     path: blue-green
